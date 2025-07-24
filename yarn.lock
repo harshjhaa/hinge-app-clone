@@ -1558,7 +1558,7 @@
   dependencies:
     "@react-native-vector-icons/common" "^12.2.0"
 
-"@react-native-vector-icons/common@^12.2.0":
+"@react-native-vector-icons/common@^12.1.0", "@react-native-vector-icons/common@^12.2.0":
   version "12.2.0"
   resolved "https://registry.yarnpkg.com/@react-native-vector-icons/common/-/common-12.2.0.tgz#9d42cddd6dc87ba1f7daf7386150034b0ed8caa7"
   integrity sha512-FGVwBwuio2A9N9sJckXeTwp/oe20hCMe/Zul+b1ql3WkhUJpdJWVbpWKp8ikpHLRRstwuUqkeM5eY74f0zNn1A==
@@ -1587,6 +1587,13 @@
   integrity sha512-sh0147oAXEYlG0ldfkE/lkrR/M3lyQvTi6ZXSj/wXQNOlQ/ZXR51ArBpCWR62Xm/tGwciHkNWUTreAxy4SSzdQ==
   dependencies:
     "@react-native-vector-icons/common" "^12.2.0"
+
+"@react-native-vector-icons/fontawesome6@^12.1.0":
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/@react-native-vector-icons/fontawesome6/-/fontawesome6-12.1.0.tgz#0f0b1b7a01134eab1ff812cadcdc498114c6a794"
+  integrity sha512-WlK8jGtDc23H+z/C1ba/47N0rvMvZXsRctA+bap3+55D9XrpArQuC0MYFSy/DdxVUKr35zKquv2sXpoVpvTnrg==
+  dependencies:
+    "@react-native-vector-icons/common" "^12.1.0"
 
 "@react-native-vector-icons/fontawesome@^12.2.0":
   version "12.2.0"
@@ -1924,6 +1931,21 @@
   integrity sha512-ut5FthK5moxFKH2T1CUOC6ctR67rQRvvHdFLCD2Ql6KXmMuCrjsSsRI9UsLCm9M18BMwClv4pn327UvB7eeO1w==
   dependencies:
     undici-types "~7.8.0"
+
+"@types/react-native-vector-icons@^6.4.18":
+  version "6.4.18"
+  resolved "https://registry.yarnpkg.com/@types/react-native-vector-icons/-/react-native-vector-icons-6.4.18.tgz#18671c617b9d0958747bc959903470dde91a8c79"
+  integrity sha512-YGlNWb+k5laTBHd7+uZowB9DpIK3SXUneZqAiKQaj1jnJCZM0x71GDim5JCTMi4IFkhc9m8H/Gm28T5BjyivUw==
+  dependencies:
+    "@types/react" "*"
+    "@types/react-native" "^0.70"
+
+"@types/react-native@^0.70":
+  version "0.70.19"
+  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.70.19.tgz#b4e651dcf7f49c69ff3a4c3072584cad93155582"
+  integrity sha512-c6WbyCgWTBgKKMESj/8b4w+zWcZSsCforson7UdXtXMecG3MxCinYi6ihhrHVPyUrVzORsvEzK8zg32z4pK6Sg==
+  dependencies:
+    "@types/react" "*"
 
 "@types/react-test-renderer@^19.1.0":
   version "19.1.0"

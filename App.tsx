@@ -6,30 +6,30 @@
  */
 
 import { NewAppScreen } from '@react-native/new-app-screen';
-import {
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+import { Text } from 'react-native';
+import { StyleSheet, useColorScheme, View } from 'react-native';
+import Entypo from '@react-native-vector-icons/entypo';
+import FontAwesome from '@react-native-vector-icons/fontawesome';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
 
   return (
     <View style={styles.container}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <NewAppScreen templateFileName="App.tsx" />
-
-      <Text>Harsh Jha</Text>
+      <Text>Harsh</Text>
+      <Entypo name="heart" size={24} color="black" />
+      <FontAwesome name="rocket" size={30} color="#900" />
+      <Text>Harsh</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100%',
   },
 });
 

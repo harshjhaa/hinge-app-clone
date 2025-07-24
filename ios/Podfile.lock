@@ -1648,6 +1648,16 @@ PODS:
     - React-RCTFBReactNativeSpec
     - ReactCommon/turbomodule/core
     - SocketRocket
+  - react-native-vector-icons-ant-design (12.2.0)
+  - react-native-vector-icons-entypo (12.2.0)
+  - react-native-vector-icons-evil-icons (12.2.0)
+  - react-native-vector-icons-feather (12.2.0)
+  - react-native-vector-icons-fontawesome (12.2.0)
+  - react-native-vector-icons-fontawesome6 (12.1.0)
+  - react-native-vector-icons-fontisto (12.2.0)
+  - react-native-vector-icons-ionicons (12.2.0)
+  - react-native-vector-icons-material-design-icons (12.2.0)
+  - react-native-vector-icons-material-icons (12.2.0)
   - React-NativeModulesApple (0.80.2):
     - boost
     - DoubleConversion
@@ -2167,6 +2177,16 @@ DEPENDENCIES:
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
   - React-microtasksnativemodule (from `../node_modules/react-native/ReactCommon/react/nativemodule/microtasks`)
+  - "react-native-vector-icons-ant-design (from `../node_modules/@react-native-vector-icons/ant-design`)"
+  - "react-native-vector-icons-entypo (from `../node_modules/@react-native-vector-icons/entypo`)"
+  - "react-native-vector-icons-evil-icons (from `../node_modules/@react-native-vector-icons/evil-icons`)"
+  - "react-native-vector-icons-feather (from `../node_modules/@react-native-vector-icons/feather`)"
+  - "react-native-vector-icons-fontawesome (from `../node_modules/@react-native-vector-icons/fontawesome`)"
+  - "react-native-vector-icons-fontawesome6 (from `../node_modules/@react-native-vector-icons/fontawesome6`)"
+  - "react-native-vector-icons-fontisto (from `../node_modules/@react-native-vector-icons/fontisto`)"
+  - "react-native-vector-icons-ionicons (from `../node_modules/@react-native-vector-icons/ionicons`)"
+  - "react-native-vector-icons-material-design-icons (from `../node_modules/@react-native-vector-icons/material-design-icons`)"
+  - "react-native-vector-icons-material-icons (from `../node_modules/@react-native-vector-icons/material-icons`)"
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
   - React-oscompat (from `../node_modules/react-native/ReactCommon/oscompat`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
@@ -2287,6 +2307,26 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   React-microtasksnativemodule:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/microtasks"
+  react-native-vector-icons-ant-design:
+    :path: "../node_modules/@react-native-vector-icons/ant-design"
+  react-native-vector-icons-entypo:
+    :path: "../node_modules/@react-native-vector-icons/entypo"
+  react-native-vector-icons-evil-icons:
+    :path: "../node_modules/@react-native-vector-icons/evil-icons"
+  react-native-vector-icons-feather:
+    :path: "../node_modules/@react-native-vector-icons/feather"
+  react-native-vector-icons-fontawesome:
+    :path: "../node_modules/@react-native-vector-icons/fontawesome"
+  react-native-vector-icons-fontawesome6:
+    :path: "../node_modules/@react-native-vector-icons/fontawesome6"
+  react-native-vector-icons-fontisto:
+    :path: "../node_modules/@react-native-vector-icons/fontisto"
+  react-native-vector-icons-ionicons:
+    :path: "../node_modules/@react-native-vector-icons/ionicons"
+  react-native-vector-icons-material-design-icons:
+    :path: "../node_modules/@react-native-vector-icons/material-design-icons"
+  react-native-vector-icons-material-icons:
+    :path: "../node_modules/@react-native-vector-icons/material-icons"
   React-NativeModulesApple:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios"
   React-oscompat:
@@ -2393,6 +2433,16 @@ SPEC CHECKSUMS:
   React-logger: 7cfc7b1ae1f8e5fe5097f9c746137cc3a8fad4ce
   React-Mapbuffer: 7018c5b7da5b13ed22fe55dae51d50187a00b2d7
   React-microtasksnativemodule: 8ff9cb220a8efa625b5885996bd69e69db9edf02
+  react-native-vector-icons-ant-design: 7af79b29c82b3a5e3e7375f6896372fd367a4674
+  react-native-vector-icons-entypo: b93cffb02e37321142529317407a6045c908a702
+  react-native-vector-icons-evil-icons: 02639805c4abca8068d963117d3342f8e90c649d
+  react-native-vector-icons-feather: 9a5ae7068527c30d221b6b9bdb79f18b6d05bb18
+  react-native-vector-icons-fontawesome: d43f957518db58e1c9658d38f6aeacf25c741934
+  react-native-vector-icons-fontawesome6: 2aed838cc3341d13e8eb0541929a74a16f62348d
+  react-native-vector-icons-fontisto: 527ea7690c5b02ad07bab68298d2556862a3e5ba
+  react-native-vector-icons-ionicons: 3a23bfb6ac5e5c44d822f37107afa50718f3cf31
+  react-native-vector-icons-material-design-icons: e406b4fc1787999a5d150c897837150543e90b9c
+  react-native-vector-icons-material-icons: 02aacdc7a2aa4d22dd841eaddad080a5f967b888
   React-NativeModulesApple: 37c08c3c54db55854de816b0df0f3683832be35a
   React-oscompat: 56d6de59f9ae95cd006a1c40be2cde83bc06a4e1
   React-perflogger: 4008bd05a8b6c157b06608c0ea0b8bd5d9c5e6c9
