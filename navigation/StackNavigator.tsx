@@ -9,6 +9,10 @@ import Entypo from '@react-native-vector-icons/entypo';
 import MaterialIcons from '@react-native-vector-icons/material-icons';
 import IonIcons from '@react-native-vector-icons/ionicons';
 import { NavigationContainer } from '@react-navigation/native';
+import { AuthStack } from '.';
+
+const Tab = createBottomTabNavigator();
+const Stack = createNativeStackNavigator();
 
 function RenderIcons(props: { type: string; color: string; size: number }) {
   const { type, color, size } = props;
@@ -53,7 +57,6 @@ function RenderIcons(props: { type: string; color: string; size: number }) {
 }
 
 function BottomTabs() {
-  const Tab = createBottomTabNavigator();
   return (
     <Tab.Navigator
       screenOptions={() => {
@@ -126,7 +129,6 @@ function BottomTabs() {
 }
 
 function MainStack() {
-  const Stack = createNativeStackNavigator();
   return (
     <Stack.Navigator>
       <Stack.Screen
@@ -141,7 +143,7 @@ function MainStack() {
 const StackNavigator = () => {
   return (
     <NavigationContainer>
-      <MainStack />
+      <AuthStack />
     </NavigationContainer>
   );
 };

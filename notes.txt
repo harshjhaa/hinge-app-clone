@@ -1,0 +1,2 @@
+Dependencies - 
+> Animation : yarn add lottie-react-native
