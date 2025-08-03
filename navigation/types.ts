@@ -3,8 +3,8 @@ type RootStackParamList = {
   BasicInfo: undefined;
   Name: undefined;
   Email: undefined;
-  Otp: undefined;
-  Password: undefined;
+  Password: { email: string };
+  Otp: { email: string };
   Birth: undefined;
   Location: undefined;
   Gender: undefined;
